@@ -5,6 +5,7 @@ import { FormsModule }   from '@angular/forms'; // <-- NgModel lives here
 import { EventsAppComponent } from './events-app.component';
 import { EventsListComponent } from './events/events-list.component';
 import { EventThumbnailComponent } from './events/event-thumbnail.component';
+import { NavComponent } from './nav/nav.component';
  
 @NgModule({
     imports: [
@@ -15,7 +16,8 @@ import { EventThumbnailComponent } from './events/event-thumbnail.component';
     declarations: [
         EventsAppComponent,
         EventsListComponent,
-        EventThumbnailComponent
+        EventThumbnailComponent,
+        NavComponent
     ],
     bootstrap: [
         EventsAppComponent
