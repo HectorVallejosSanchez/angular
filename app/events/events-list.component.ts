@@ -23,8 +23,6 @@ export class EventsListComponent implements OnInit {
     constructor() { }
 
     ngOnInit() { }
-    handleEventClicked(data){
-        console.log('received: ', data);
-    }
+   
 }
 
